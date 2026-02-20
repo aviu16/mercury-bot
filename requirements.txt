@@ -1,0 +1,5 @@
+# safest: accept any 2.x up to the next breaking change
+discord.py>=2.4,<2.6  
+httpx[http2]==0.27.0
+pandas
+python-dotenv
