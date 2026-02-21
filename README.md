@@ -1,12 +1,12 @@
 # Mercury Bot — AI Financial Assistant for Discord
 
-Discord bot that integrates with the Mercury banking API to provide real-time financial monitoring, transaction tracking, and AI-powered financial insights via Claude.
+Discord bot that integrates with the Mercury banking API to provide real-time financial monitoring, transaction tracking, and AI-powered financial insights via AI.
 
 ## Features
 
 - **Real-Time Balance Tracking** — monitors Mercury bank accounts with auto-refreshing dashboard
 - **Transaction Monitoring** — automated alerts for new transactions, categorization, and anomaly detection
-- **AI Financial Insights** — Claude-powered natural language Q&A about your finances
+- **AI Financial Insights** — AI-powered natural language Q&A about your finances
 - **Scheduled Reports** — daily/weekly financial summaries posted to Discord channels
 - **Multi-Account Support** — handles multiple Mercury accounts simultaneously
 - **SQLite Storage** — local transaction history for trend analysis
@@ -17,7 +17,7 @@ Discord bot that integrates with the Mercury banking API to provide real-time fi
 - **Python** — async runtime
 - **discord.py** — Discord bot framework
 - **Mercury API** — banking data access
-- **Anthropic API** — Claude for AI-powered financial analysis
+- **Anthropic API —  AI-powered financial analysis
 - **SQLite** — transaction history database
 - **asyncio** — concurrent API polling and event handling
 
@@ -27,7 +27,7 @@ Discord bot that integrates with the Mercury banking API to provide real-time fi
 mercury-bot/
 ├── main.py                    # Core bot — commands, events, Mercury polling
 ├── main_enhanced.py           # Enhanced version with all features
-├── financial_agent.py         # Claude-powered financial Q&A agent
+├── financial_agent.py         # AI-powered financial Q&A agent
 ├── enhanced_mercury_api.py    # Mercury API client with retry logic
 ├── transaction_monitor.py     # Real-time transaction alerting
 ├── enhanced_features.py       # Dashboard, reports, analytics
